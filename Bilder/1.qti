@@ -1,0 +1,357 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+Table1	30	4	31.05.2015 13:36:34
+geometry	43	295	484	271	
+header	Strom[X]	ErrAblesen[xEr]	Leistung[Y]	ErrAblesen2[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel	20 Grad	1
+<data>
+1	3.69400000000000e+01	2.00000000000000e-02	5.15000000000000e+03	2.00000000000000e+01
+2	3.28400000000000e+01	2.00000000000000e-02	3.54000000000000e+03	2.00000000000000e+01
+3	3.02900000000000e+01	2.00000000000000e-02	2.41000000000000e+03	2.00000000000000e+01
+4	2.56700000000000e+01	2.00000000000000e-02	3.00000000000000e+02	5.00000000000000e+00
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	31.05.2015 14:19:11
+geometry	634	4	520	456	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	305
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	494	393
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Strom [mA]	Leistung [mikroW]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_Strom	Table1_Leistung	1	0	#000000	0	1	5	10	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table1_Strom	Table1_Leistung	Table1_Strom	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>25.67	36.94</Range>
+<Points>2</Points>
+<Constant>A	435.294925751691</Constant>
+<Constant>B	-10832.48796255</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	6000	0	8	5	0	0
+scale	1	0	6000	0	8	5	0	0
+scale	2	24	38	0	8	5	0	0
+scale	3	24	38	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>24.350877192982</x>
+<y>5799.3311036789</y>
+<right>25.6140350877193</right>
+<bottom>5317.72575250836</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+20 
+\l(3)%(3)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<table>
+Table2	30	4	31.05.2015 14:27:08
+geometry	33	7	505	284	active
+header	Strom[X]	ErrAblesen[xEr]	Leistung[Y]	ErrAblesenY[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel	23 Grad	1
+<data>
+2	3.48600000000000e+01	2.00000000000000e-02	4.14000000000000e+03	2.00000000000000e+01
+3	3.26800000000000e+01	2.00000000000000e-02	3.19000000000000e+03	2.00000000000000e+01
+4	3.01100000000000e+01	2.00000000000000e-02	2.08000000000000e+03	2.00000000000000e+01
+5	2.76300000000000e+01	2.00000000000000e-02	8.66000000000000e+02	5.00000000000000e+00
+6	2.52000000000000e+01	2.00000000000000e-02	9.50000000000000e+01	5.00000000000000e+00
+7	2.08800000000000e+01	2.00000000000000e-02	4.30000000000000e+01	5.00000000000000e+00
+8	1.50400000000000e+01	2.00000000000000e-02	2.40000000000000e+01	5.00000000000000e+00
+</data>
+</table>
+<multiLayer>
+Graph2	1	1	31.05.2015 14:32:01
+geometry	381	1	528	456	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	502	388
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_Strom	Table2_Leistung	1	0	#000000	0	1	5	13	#000000	#000000	0	#000000	14	1	2	0	2	8	1
+ErrorBars	1	Table2_Strom	Table2_Leistung	Table1_Strom	1	8	#000000	1	1	1
+scale	0	-1000	5000	0	8	5	0	0
+scale	1	-1000	5000	0	8	5	0	0
+scale	2	10	40	0	8	5	0	0
+scale	3	10	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	7274617
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>10.751879699248</x>
+<y>4799.3311036789</y>
+<right>18.1203007518797</right>
+<bottom>4317.72575250836</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[31.05.2015 14:24:15	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_Leistung, using function: A*x+B
+Weighting Method: No weighting
+From x = 3.694000000000000e+01 to x = 2.567000000000000e+01
+B (y-intercept) = -1.071438268889178e+04 +/- 3.830619935369934e+02
+A (slope) = 4.315057321104433e+02 +/- 1.208412156993053e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.758230864657417e+03
+R^2 = 0.998433947318345
+Adjusted R^2 = 0.995301841955036
+RMSE (Root Mean Squared Error) = 98.7837581015089
+RSS (Residual Sum of Squares) = 19'516.4617293148
+---------------------------------------------------------------------------------------
+[31.05.2015 14:30:57	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_Leistung, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_Strom
+From x = 3.694000000000000e+01 to x = 2.567000000000000e+01
+B (y-intercept) = -1.083248796255003e+04 +/- 1.150458578397813e+02
+A (slope) = 4.352949257516911e+02 +/- 3.757785803052369e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.351797515297212e+00
+R^2 = 0.998700882829229
+Adjusted R^2 = 0.996102648487686
+RMSE (Root Mean Squared Error) = 3.05807088133961
+RSS (Residual Sum of Squares) = 18.7035950305944
+---------------------------------------------------------------------------------------
+[31.05.2015 14:36:54	Plot: ''Graph3'']
+Linear Regression of dataset: Table2_Leistung, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_Strom
+From x = 3.486000000000000e+01 to x = 1.504000000000000e+01
+B (y-intercept) = nan +/- nan
+A (slope) = nan +/- nan
+--------------------------------------------------------------------------------------
+Chi^2/doF = nan
+R^2 = nan
+Adjusted R^2 = nan
+RMSE (Root Mean Squared Error) = nan
+RSS (Residual Sum of Squares) = nan
+---------------------------------------------------------------------------------------
+[31.05.2015 14:39:07	Plot: ''Graph3'']
+Linear Regression of dataset: Table2_Leistung, using function: A*x
+Weighting Method: Instrumental, using error bars dataset: Table1_Strom
+From x = 3.486000000000000e+01 to x = 1.504000000000000e+01
+A (slope) = nan +/- nan
+--------------------------------------------------------------------------------------
+Chi^2/doF = nan
+R^2 = nan
+Adjusted R^2 = nan
+RMSE (Root Mean Squared Error) = nan
+RSS (Residual Sum of Squares) = nan
+---------------------------------------------------------------------------------------
+[31.05.2015 14:49:10	Plot: ''Graph3'']
+Linear Regression of dataset: Table1_Leistung, using function: A*x
+Weighting Method: Instrumental, using error bars dataset: Table1_ErrAblesen2
+From x = 3.694000000000000e+01 to x = 2.567000000000000e+01
+A (slope) = 3.615653786208799e+01 +/- 1.696152389799483e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.343830410801557e+04
+R^2 = 0.744308712390864
+Adjusted R^2 = 0.616463068586296
+RMSE (Root Mean Squared Error) = 153.095735107205
+RSS (Residual Sum of Squares) = 70'314.9123240467
+---------------------------------------------------------------------------------------
+[31.05.2015 14:49:36	Plot: ''Graph3'']
+Linear Regression of dataset: Table1_Leistung, using function: A*x+B
+Weighting Method: No weighting
+From x = 3.694000000000000e+01 to x = 2.567000000000000e+01
+B (y-intercept) = -1.071438268889178e+04 +/- 3.830619935369934e+02
+A (slope) = 4.315057321104433e+02 +/- 1.208412156993053e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.758230864657417e+03
+R^2 = 0.998433947318345
+Adjusted R^2 = 0.995301841955036
+RMSE (Root Mean Squared Error) = 98.7837581015089
+RSS (Residual Sum of Squares) = 19'516.4617293148
+---------------------------------------------------------------------------------------
+[31.05.2015 14:51:12	Plot: ''Graph2'']
+Linear Regression of dataset: Table2_Leistung, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_Strom
+From x = 3.486000000000000e+01 to x = 1.504000000000000e+01
+B (y-intercept) = nan +/- nan
+A (slope) = nan +/- nan
+--------------------------------------------------------------------------------------
+Chi^2/doF = nan
+R^2 = nan
+Adjusted R^2 = nan
+RMSE (Root Mean Squared Error) = nan
+RSS (Residual Sum of Squares) = nan
+---------------------------------------------------------------------------------------
+[31.05.2015 14:53:23	Plot: ''Graph2'']
+Linear Regression of dataset: Table2_Leistung, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_Strom
+From x = 3.486000000000000e+01 to x = 1.504000000000000e+01
+B (y-intercept) = nan +/- nan
+A (slope) = nan +/- nan
+--------------------------------------------------------------------------------------
+Chi^2/doF = nan
+R^2 = nan
+Adjusted R^2 = nan
+RMSE (Root Mean Squared Error) = nan
+RSS (Residual Sum of Squares) = nan
+---------------------------------------------------------------------------------------
+[31.05.2015 15:01:49	Plot: ''Graph3'']
+Linear Regression of dataset: Table2_Leistung, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table2_ErrAblesenY
+From x = 3.486000000000000e+01 to x = 1.504000000000000e+01
+B (y-intercept) = -1.732746319458177e+03 +/- 1.100379797201969e+01
+A (slope) = 9.353408454103244e+01 +/- 4.736593950479441e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.123501680207359e+03
+R^2 = 0.84226804981545
+Adjusted R^2 = 0.763402074723174
+RMSE (Root Mean Squared Error) = 95.5170229865198
+RSS (Residual Sum of Squares) = 45'617.5084010368
+---------------------------------------------------------------------------------------
+[31.05.2015 15:07:11	Plot: ''Graph3'']
+Linear Regression of dataset: Table2_Leistung, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table2_ErrAblesenY
+From x = 3.486000000000000e+01 to x = 1.504000000000000e+01
+B (y-intercept) = -1.732746319458177e+03 +/- 1.100379797201969e+01
+A (slope) = 9.353408454103244e+01 +/- 4.736593950479441e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.123501680207359e+03
+R^2 = 0.84226804981545
+Adjusted R^2 = 0.763402074723174
+RMSE (Root Mean Squared Error) = 95.5170229865198
+RSS (Residual Sum of Squares) = 45'617.5084010368
+---------------------------------------------------------------------------------------
+</log>

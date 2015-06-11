@@ -1,0 +1,650 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	8
+<table>
+Table1	30	9	05.06.2015 21:19:19
+geometry	784	603	987	476	minimized	
+header	I[X]	1[Y]	2[Y]	3[Y]	4[Y]	5[Y]	7[Y]	8[Y]	9[Y]
+ColWidth	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0
+Comments										
+WindowLabel		2
+<data>
+1	-2.85900000000000e+01	-5.20000000000000e+00	-2.00000000000000e-01				5.00000000000000e+00		
+2	-2.97000000000000e+01	-4.40000000000000e+00	-1.40000000000000e+00				3.00000000000000e+00		
+3	-3.07800000000000e+01	-7.60000000000000e+00	-2.40000000000000e+00				5.20000000000000e+00		
+4	-3.17100000000000e+01	-8.40000000000000e+00	-3.20000000000000e+00		6.00000000000000e+00		5.20000000000000e+00	4.60000000000000e+00	
+5	-3.31500000000000e+01	-9.40000000000000e+00	-4.00000000000000e+00		5.20000000000000e+00	1.00000000000000e+01	5.40000000000000e+00	4.60000000000000e+00	4.80000000000000e+00
+6	-3.47900000000000e+01				4.40000000000000e+00	9.40000000000000e+00			5.00000000000000e+00
+7	-3.67400000000000e+01				3.40000000000000e+00	8.60000000000000e+00			5.20000000000000e+00
+8	-3.74500000000000e+01				3.20000000000000e+00	8.20000000000000e+00			5.00000000000000e+00
+9	-3.87000000000000e+01				2.60000000000000e+00	7.60000000000000e+00			5.00000000000000e+00
+10	-3.93100000000000e+01				2.40000000000000e+00	7.40000000000000e+00			5.00000000000000e+00
+12	2.85900000000000e+01	1.24015748000000e+02	2.71653543300000e+02						
+13	2.97000000000000e+01	1.47637795300000e+02	2.36220472400000e+02						
+14	3.07800000000000e+01	5.31496063000000e+01	2.06692913400000e+02						
+15	3.17100000000000e+01	2.95275590600000e+01	1.83070866100000e+02		4.54724409400000e+02				
+16	3.31500000000000e+01	0.00000000000000e+00	1.59448818900000e+02		4.31102362200000e+02	5.72834645700000e+02			
+17	3.47900000000000e+01				4.07480315000000e+02	5.55118110200000e+02			
+18	3.67400000000000e+01				3.77952755900000e+02	5.31496063000000e+02			
+19	3.74500000000000e+01				3.72047244100000e+02	5.19685039400000e+02			
+20	3.87000000000000e+01				3.54330708700000e+02	5.01968503900000e+02			
+21	3.93100000000000e+01				3.48425196900000e+02	4.96062992100000e+02			
+</data>
+</table>
+<table>
+Table2	30	8	05.06.2015 21:55:56
+geometry	196	603	907	523	minimized	
+header	T[X]	1[Y]	2[Y]	3[Y]	4[Y]	5[Y]	6[xEr]	7[yEr]
+ColWidth	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0
+Comments									
+WindowLabel		2
+<data>
+14	2.20000000000000e+01	1.73076923100000e+01	1.73076923100000e+02	3.23076923100000e+02				
+15	2.25000000000000e+01		1.55769230800000e+02	3.00000000000000e+02				
+16	2.30000000000000e+01		1.32692307700000e+02	2.82692307700000e+02				
+17	2.35000000000000e+01		1.21153846200000e+02	2.71153846200000e+02		5.36538461500000e+02		
+18	2.40000000000000e+01		1.03846153800000e+02			5.19230769200000e+02		
+19	2.50000000000000e+01				3.40384615400000e+02	4.90384615400000e+02		
+20	2.60000000000000e+01			1.55769230800000e+02	3.05769230800000e+02	4.50000000000000e+02		
+21	2.70000000000000e+01			1.21153846200000e+02	2.71153846200000e+02			
+22	2.80000000000000e+01			8.65384615400000e+01				
+23	2.90000000000000e+01			5.76923076900000e+01				
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	05.06.2015 21:41:00
+geometry	0	603	512	456	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	486	388
+PlotTitle	Frequenzcharakteristik bei konstanter Temperatur T = 22 °C	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Diodenstrom Betrag [mA]	Frequenz [GHz]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_I	Table1_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	12	21	1
+curve	Table1_I	Table1_2	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	12	21	1
+curve	Table1_I	Table1_4	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	12	21	1
+curve	Table1_I	Table1_5	1	0	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	12	21	1
+scale	0	-100	600	0	8	5	0	0
+scale	1	-100	600	0	8	5	0	0
+scale	2	28	40	0	8	5	0	0
+scale	3	28	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	25604
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>37.286432160804</x>
+<y>78.523489932886</y>
+<right>39.2763819095477</right>
+<bottom>-69.4630872483222</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	05.06.2015 22:07:20
+geometry	980	603	504	456	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	478	388
+PlotTitle	Frequenzcharakteristik bei konstantem Strom I = -39.55 mA	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Temperatur [°C]	Frequenz [GHz]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_T	Table2_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	14	23	1
+curve	Table2_T	Table2_2	1	0	#ff0000	0	1	5	2	#ff0000	#ff0000	0	#000000	14	1	2	0	14	23	1
+curve	Table2_T	Table2_3	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	14	23	1
+curve	Table2_T	Table2_4	1	0	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	14	23	1
+curve	Table2_T	Table2_5	1	0	#00ffff	0	1	7	5	#00ffff	#00ffff	0	#000000	14	1	2	0	14	23	1
+scale	0	0	600	0	8	5	0	0
+scale	1	0	600	0	8	5	0	0
+scale	2	21	30	0	8	5	0	0
+scale	3	21	30	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	1782059124
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>21.226130653266</x>
+<y>579.86577181208</y>
+<right>23.6596306068602</right>
+<bottom>519.587628865979</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+\l(5)%(5)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<table>
+Table3	30	12	11.06.2015 12:09:26
+geometry	588	603	910	457	minimized	
+header	Diodenstrom Betrag[X]	Mode 1[Y]	3[yEr]	Mode 2[Y]	5[yEr]	Mode 3[Y]	7[yEr]	Mode4[Y]	9[yEr]	Mode 5[Y]	11[yEr]	12[xEr]
+ColWidth	100	100	100	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0
+Comments													
+WindowLabel		2
+<data>
+0	2.85900000000000e+01	1.24015748000000e+02	7.63295875100000e+00	2.71653543300000e+02	5.90844022500000e+00							2.00000000000000e-02
+1	2.97000000000000e+01	1.47637795300000e+02	7.18467819200000e+00	2.36220472400000e+02	6.04733664800000e+00							2.00000000000000e-02
+2	3.07800000000000e+01	5.31496063000000e+01	9.21042309400000e+00	2.06692913400000e+02	6.31323321900000e+00							2.00000000000000e-02
+3	3.17100000000000e+01	2.95275590600000e+01	9.79299024100000e+00	1.83070866100000e+02	6.61299336000000e+00			4.54724409400000e+02	8.12475195300000e+00			2.00000000000000e-02
+4	3.31500000000000e+01	0.00000000000000e+00	1.05497838600000e+01	1.59448818900000e+02	6.97950751200000e+00			4.31102362200000e+02	7.63295875100000e+00	5.72834645700000e+02	1.10165972800000e+01	2.00000000000000e-02
+5	3.47900000000000e+01							4.07480315000000e+02	7.18467819200000e+00	5.55118110200000e+02	1.05497838600000e+01	2.00000000000000e-02
+6	3.67400000000000e+01							3.77952755900000e+02	6.69875762700000e+00	5.31496063000000e+02	9.94199827100000e+00	2.00000000000000e-02
+7	3.74500000000000e+01							3.72047244100000e+02	6.61299336000000e+00	5.19685039400000e+02	9.64526714900000e+00	2.00000000000000e-02
+8	3.87000000000000e+01							3.54330708700000e+02	6.38136483300000e+00	5.01968503900000e+02	9.21042309400000e+00	2.00000000000000e-02
+9	3.93100000000000e+01							3.48425196900000e+02	6.31323321900000e+00	4.96062992100000e+02	9.06847193300000e+00	2.00000000000000e-02
+</data>
+</table>
+<multiLayer>
+Graph3	1	1	11.06.2015 12:13:11
+geometry	768	40	512	456	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	486	388
+PlotTitle	Frequenzcharakteristik bei 22.0(1) °C	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Diodenstrom Betrag [mA]	Frequenz [GHz]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table3_Diodenstrom Betrag	Table3_Mode 1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table3_Diodenstrom Betrag	Table3_Mode 2	1	0	#ff0000	0	1	5	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Table3_Diodenstrom Betrag	Table3_Mode4	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	Table3_Diodenstrom Betrag	Table3_Mode 5	1	0	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table3_Diodenstrom Betrag	Table3_Mode 1	Table3_3	1	8	#000000	1	1	1
+ErrorBars	1	Table3_Diodenstrom Betrag	Table3_Mode 2	Table3_5	1	8	#ff0000	1	1	1
+ErrorBars	1	Table3_Diodenstrom Betrag	Table3_Mode4	Table3_9	1	8	#00ff00	1	1	1
+ErrorBars	1	Table3_Diodenstrom Betrag	Table3_Mode 5	Table3_11	1	8	#0000ff	1	1	1
+ErrorBars	0	Table3_Diodenstrom Betrag	Table3_Mode 5	Table3_12	1	8	#0000ff	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>28.59	33.15</Range>
+<Points>2</Points>
+<Constant>A	-25.1043875477739</Constant>
+<Constant>B	984.203899041408</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-100	600	0	8	5	0	0
+scale	1	-100	600	0	8	5	0	0
+scale	2	28	40	0	8	5	0	0
+scale	3	28	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	1782059124
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>36.360902255639</x>
+<y>115.38461538462</y>
+<right>39.187969924812</right>
+<bottom>-32.1070234113712</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+\l(10)%(10)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<table>
+Table4	30	12	11.06.2015 12:28:35
+geometry	392	603	971	437	minimized	
+header	Temperatur[X]	2[xEr]	Mode 1[Y]	4[yEr]	Mode 2[Y]	6[yEr]	Mode 3[Y]	8[yEr]	Mode 4[Y]	10[yEr]	Mode 5[Y]	12[yEr]
+ColWidth	100	100	100	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0
+Comments													
+WindowLabel		2
+<data>
+0	2.20000000000000e+01	1.00000000000000e-01	1.73076923100000e+01	5.57425742100000e+00	1.73076923100000e+02	3.35006903400000e+00	3.23076923100000e+02	3.14350341200000e+00				
+1	2.25000000000000e+01	1.00000000000000e-01	0.00000000000000e+00	5.86844233800000e+00	1.55769230800000e+02	3.53550893700000e+00	3.00000000000000e+02	2.99215433800000e+00				
+2	2.30000000000000e+01	1.00000000000000e-01			1.32692307700000e+02	3.81620715400000e+00	2.82692307700000e+02	2.92016562500000e+00				
+3	2.35000000000000e+01	1.00000000000000e-01			1.21153846200000e+02	3.96862883900000e+00	2.71153846200000e+02	2.89354389200000e+00			5.36538461500000e+02	6.16741774800000e+00
+4	2.40000000000000e+01	1.00000000000000e-01			1.03846153800000e+02	4.20991037400000e+00					5.19230769200000e+02	5.86844233800000e+00
+5	2.50000000000000e+01	1.00000000000000e-01							3.40384615400000e+02	3.29377178500000e+00	4.90384615400000e+02	5.38118405800000e+00
+6	2.60000000000000e+01	1.00000000000000e-01					1.55769230800000e+02	3.53550893700000e+00	3.05769230800000e+02	3.02431006300000e+00	4.50000000000000e+02	4.72932087600000e+00
+7	2.70000000000000e+01	1.00000000000000e-01					1.21153846200000e+02	3.96862883900000e+00	2.71153846200000e+02	2.89354389200000e+00		
+8	2.80000000000000e+01	1.00000000000000e-01					8.65384615400000e+01	4.46417208300000e+00				
+9	2.90000000000000e+01	1.00000000000000e-01					5.76923076900000e+01	4.91126740300000e+00				
+</data>
+</table>
+<multiLayer>
+Graph4	1	1	11.06.2015 12:30:14
+geometry	252	43	512	456	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	486	388
+PlotTitle	frequenzcharakteristik bei Diodenstrom I = -39.55 mA	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Temperatur [°C]	Frequenz [GHz]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table4_Temperatur	Table4_Mode 1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	9	1
+curve	Table4_Temperatur	Table4_Mode 2	1	0	#ff0000	0	1	5	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	9	1
+curve	Table4_Temperatur	Table4_Mode 3	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	9	1
+curve	Table4_Temperatur	Table4_Mode 4	1	0	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	9	1
+curve	Table4_Temperatur	Table4_Mode 5	1	0	#00ffff	0	1	7	5	#00ffff	#00ffff	0	#000000	14	1	2	0	0	9	1
+ErrorBars	0	Table4_Temperatur	Table4_Mode 1	Table4_2	1	8	#000000	1	1	1
+ErrorBars	1	Table4_Temperatur	Table4_Mode 1	Table4_4	1	8	#000000	1	1	1
+ErrorBars	1	Table4_Temperatur	Table4_Mode 2	Table4_6	1	8	#ff0000	1	1	1
+ErrorBars	1	Table4_Temperatur	Table4_Mode 3	Table4_8	1	8	#00ff00	1	1	1
+ErrorBars	1	Table4_Temperatur	Table4_Mode 4	Table4_10	1	8	#0000ff	1	1	1
+ErrorBars	1	Table4_Temperatur	Table4_Mode 5	Table4_12	1	8	#00ffff	1	1	1
+scale	0	-100	600	0	8	5	0	0
+scale	1	-100	600	0	8	5	0	0
+scale	2	21	30	0	8	5	0	0
+scale	3	21	30	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>27.721804511278</x>
+<y>583.61204013378</y>
+<right>29.8421052631579</right>
+<bottom>375.250836120401</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+\l(5)%(5)
+
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[06.06.2015 16:22:59	Plot: ''Graph2'']
+Linear Regression of dataset: Table2_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 2.200000000000000e+01 to x = 2.400000000000000e+01
+B (y-intercept) = 9.334615390399999e+02 +/- 4.335760210810216e+01
+A (slope) = -3.461538463999999e+01 +/- 1.884222880948210e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.875739662721928e+00
+R^2 = 0.99118942730773
+Adjusted R^2 = 0.982378854615459
+RMSE (Root Mean Squared Error) = 2.97921796160031
+RSS (Residual Sum of Squares) = 26.6272189881658
+---------------------------------------------------------------------------------------
+
+[11.06.2015 11:41:52	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_1, using function: A*x+B
+Weighting Method: No weighting
+From x = 2.859000000000000e+01 to x = 3.315000000000000e+01
+B (y-intercept) = 1.074564824237613e+03 +/- 2.540927571458246e+02
+A (slope) = -3.260243885225794e+01 +/- 8.242701045920034e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.454799009597890e+02
+R^2 = 0.839094450470705
+Adjusted R^2 = 0.678188900941409
+RMSE (Root Mean Squared Error) = 29.0771370832788
+RSS (Residual Sum of Squares) = 2'536.43970287937
+---------------------------------------------------------------------------------------
+[11.06.2015 11:43:59	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 2.859000000000000e+01 to x = 3.315000000000000e+01
+B (y-intercept) = 9.739653437254523e+02 +/- 5.872082709879785e+01
+A (slope) = -2.476931140471163e+01 +/- 1.904887917237133e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4.515470866048233e+01
+R^2 = 0.982566120979794
+Adjusted R^2 = 0.965132241959587
+RMSE (Root Mean Squared Error) = 6.71972534114917
+RSS (Residual Sum of Squares) = 135.464125981447
+---------------------------------------------------------------------------------------
+[11.06.2015 12:15:20	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_Mode 2, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_5
+From x = 2.859000000000000e+01 to x = 3.315000000000000e+01
+B (y-intercept) = 9.842038990414079e+02 +/- 5.590781487269117e+01
+A (slope) = -2.510438754777392e+01 +/- 1.824675615064541e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.077390590545277e+00
+R^2 = 0.983436149010051
+Adjusted R^2 = 0.966872298020103
+RMSE (Root Mean Squared Error) = 1.03797427258352
+RSS (Residual Sum of Squares) = 3.23217177163583
+---------------------------------------------------------------------------------------
+[11.06.2015 12:35:50	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_Mode4, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_9
+From x = 3.171000000000000e+01 to x = 3.931000000000000e+01
+B (y-intercept) = 8.924534566624984e+02 +/- 3.775980541293085e+01
+A (slope) = -1.390323201846092e+01 +/- 1.034277593943392e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.297831372211205e-01
+R^2 = 0.996529790648071
+Adjusted R^2 = 0.994794685972107
+RMSE (Root Mean Squared Error) = 0.360254267457195
+RSS (Residual Sum of Squares) = 0.648915686105603
+---------------------------------------------------------------------------------------
+[11.06.2015 12:36:48	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_Mode 5, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_11
+From x = 3.315000000000000e+01 to x = 3.931000000000000e+01
+B (y-intercept) = 9.996659097340549e+02 +/- 7.157185046979441e+01
+A (slope) = -1.281398045520569e+01 +/- 1.932375085342777e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.903250438734351e-02
+R^2 = 0.996529560871695
+Adjusted R^2 = 0.994215934786158
+RMSE (Root Mean Squared Error) = 0.197566455622769
+RSS (Residual Sum of Squares) = 0.156130017549374
+---------------------------------------------------------------------------------------
+[11.06.2015 12:37:51	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_Mode 2, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_5
+From x = 2.859000000000000e+01 to x = 3.315000000000000e+01
+B (y-intercept) = 9.842038990414079e+02 +/- 5.590781487269117e+01
+A (slope) = -2.510438754777392e+01 +/- 1.824675615064541e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.077390590545277e+00
+R^2 = 0.983436149010051
+Adjusted R^2 = 0.966872298020103
+RMSE (Root Mean Squared Error) = 1.03797427258352
+RSS (Residual Sum of Squares) = 3.23217177163583
+---------------------------------------------------------------------------------------
+[11.06.2015 12:48:01	Plot: ''Graph4'']
+Linear Regression of dataset: Table4_Mode 2, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table4_6
+From x = 2.200000000000000e+01 to x = 2.400000000000000e+01
+B (y-intercept) = 9.393791985169720e+02 +/- 5.446660816348334e+01
+A (slope) = -3.487193688400841e+01 +/- 2.378833946708703e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6.116928933584110e-01
+R^2 = 0.991751502531308
+Adjusted R^2 = 0.983503005062617
+RMSE (Root Mean Squared Error) = 0.782107980625701
+RSS (Residual Sum of Squares) = 1.83507868007523
+---------------------------------------------------------------------------------------
+[11.06.2015 12:48:39	Plot: ''Graph4'']
+Linear Regression of dataset: Table4_Mode 3, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table4_8
+From x = 2.200000000000000e+01 to x = 2.900000000000000e+01
+B (y-intercept) = 1.189540496479164e+03 +/- 1.310815977410308e+01
+A (slope) = -3.940417184766304e+01 +/- 5.369349567704859e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.497425604711536e+00
+R^2 = 0.99656201060655
+Adjusted R^2 = 0.99518681484917
+RMSE (Root Mean Squared Error) = 1.87014053073868
+RSS (Residual Sum of Squares) = 20.9845536282692
+---------------------------------------------------------------------------------------
+[11.06.2015 12:49:13	Plot: ''Graph4'']
+Linear Regression of dataset: Table4_Mode 4, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table4_10
+From x = 2.500000000000000e+01 to x = 2.700000000000000e+01
+B (y-intercept) = 1.205769230400000e+03 +/- 5.704492087475668e+01
+A (slope) = -3.461538460000000e+01 +/- 2.185843456614870e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.874681480259782e-29
+R^2 = 1
+RMSE (Root Mean Squared Error) = 1.30743642213388e-14
+RSS (Residual Sum of Squares) = 1.70938999792225e-28
+---------------------------------------------------------------------------------------
+[11.06.2015 12:49:50	Plot: ''Graph4'']
+Linear Regression of dataset: Table4_Mode 5, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table4_12
+From x = 2.350000000000000e+01 to x = 2.600000000000000e+01
+B (y-intercept) = 1.344695097773385e+03 +/- 6.924728038833970e+01
+A (slope) = -3.434203745022543e+01 +/- 2.787432442889377e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4.224200934023115e-01
+R^2 = 0.99468362389702
+Adjusted R^2 = 0.984050871691061
+RMSE (Root Mean Squared Error) = 0.649938530479854
+RSS (Residual Sum of Squares) = 0.844840186804623
+---------------------------------------------------------------------------------------
+[11.06.2015 12:56:29	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_Mode 2, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_5
+From x = 2.859000000000000e+01 to x = 3.315000000000000e+01
+B (y-intercept) = 9.842038990414079e+02 +/- 5.590781487269117e+01
+A (slope) = -2.510438754777392e+01 +/- 1.824675615064541e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.077390590545277e+00
+R^2 = 0.983436149010051
+Adjusted R^2 = 0.966872298020103
+RMSE (Root Mean Squared Error) = 1.03797427258352
+RSS (Residual Sum of Squares) = 3.23217177163583
+---------------------------------------------------------------------------------------
+</log>
